@@ -1,0 +1,9 @@
+{
+    "UID":1,
+    "name":"Airman Snuffy",
+    "flight":"CYXO",
+    "contact":"867-5309",
+    "status":"Quarantine",
+    "reason":"Sneezed",
+    "directedBy":"Joe"
+}

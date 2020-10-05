@@ -1,0 +1,36 @@
+/* .top {
+    height: 20vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.884), rgba(243, 6, 6, 0.911));
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    width: 350px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    margin-bottom: 20vh;
+}
+
+.input__container {
+    position: absolute;
+    width: 1000px;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* .controls__container {
+    position: absolute;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-weight: 300;
+} */
