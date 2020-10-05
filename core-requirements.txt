@@ -1,0 +1,20 @@
+/**
+ * Core requirements
+ * 1. Count positive cases
+ * 2. Count pending cases
+ * 3. Count isolation cases
+ * 4. Count negative cases (that have been tested, presumably)
+ * 5. Count members on quarters (what does quarters mean and how is this counted)
+ * 6. Dump stats to an excel spreadsheet
+ *
+ * Interface requirements
+ * 1. Add case (modal)
+ * 2. Update case (modal)
+ * 3. Generate report
+ * 4. List cases
+ *
+ * Training requirements
+ * 1. Finish JS learning
+ * 2. Learn JQuery and JQuery-spservices <- getting a good grip on JQuery might make or break this project
+ * 3. Need to build out HTML and CSS for website, potentially taking additional course for it
+ */
