@@ -43,7 +43,7 @@ Basic functionality available: users can enter basic data and commit it to the w
     - Use Git for the project
 
 ### Issues:
-- **ACTIVE:** In the Data Controller, UID assignment is broken.
+- **RESOLVED:** In the Data Controller, UID assignment is broken.
     - It correctly steps thru the `if else` statement but fails to do the math to determine the UID correctly.
     - The intent is to design a UID assigner that avoids duplicates from the start, see below for code line.
     - `UID = cases[cases.length - 1].id + 1` `(app.js:88)`
