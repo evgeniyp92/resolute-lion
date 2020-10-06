@@ -32,7 +32,7 @@ var dataController = (function () {
       // If the length of the cases array is > 0, find the last object in the array, take its id and add 1 to it, else set the ID to 0 because the array is empty
       if (cases.length > 0) {
         // For some reason this comes out to be NaN
-        UID = cases[cases.length - 1].id + 1;
+        UID = cases[cases.length - 1].uid + 1;
       } else {
         UID = 0;
       }
