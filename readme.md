@@ -2,7 +2,7 @@
 
 ## A dynamic and scalable web database to track illness cases.
 
-## Current version: 0.1 (Alpha)
+## Current version: 0.1.1 (Alpha)
 Basic functionality available: users can enter basic data and commit it to the webpage. The data is saved in a volatile database and displayed on screen. All data is lost on page reload (by design, for now).
 
 ### To do:
