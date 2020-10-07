@@ -86,13 +86,14 @@ var frontController = (function () {
 
       // Set up vars
       element = DOMStrings.caseList;
-      html = `<div class="member" id="member-0"><div class="member__name">Name: %name%</div><div class="member__flight">Flight: %flight%</div><div class="member__contact">Contact: %contact%</div><div class="member__status">Status: %status%</div><div class="member__reason">Reason: %reason%</div><div class="member__directedby">Directed by: %directedBy%</div><div class="separator">--------------------</div></div>`;
+      html = `<div class="member" id=case__%uid%><div class="member__name">Name: %name%</div><div class="member__flight">Flight: %flight%</div><div class="member__contact">Contact: %contact%</div><div class="member__status">Status: %status%</div><div class="member__reason">Reason: %reason%</div><div class="member__directedby">Directed by: %directedBy%</div><div class="separator">--------------------</div></div>`;
 
       // Replace placeholders in the string with actual data
       // newHtml = html.replace(`%name%`, obj.inputName);
       // html.replace is borked for some reason...
       console.log(html);
       newHtml = html.replace(`%name%`, obj.name);
+      newHtml = newHtml.replace(`%uid%`, obj.uid);
       newHtml = newHtml.replace(`%flight%`, obj.flight);
       newHtml = newHtml.replace(`%contact%`, obj.contact);
       newHtml = newHtml.replace(`%status%`, obj.status);
@@ -100,6 +101,7 @@ var frontController = (function () {
       newHtml = newHtml.replace(`%directedBy%`, obj.directedBy);
 
       console.log(
+        obj.uid,
         obj.name,
         obj.flight,
         obj.contact,
