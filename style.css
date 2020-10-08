@@ -1,42 +1,38 @@
-
-
-
 .top {
-    padding: 20px;
-    background-color: #e7e5e5;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+  padding: 20px;
+  background-color: #e7e5e5;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .header {
-    padding: 20px;
-    background-color: #a09b9b;  
-    margin-bottom: 20px;  
-    text-align: center;
+  padding: 20px;
+  background-color: #a09b9b;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .input__container {
-    font-size: 18px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 5px;
-    background-color: white;
-    text-align: left;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  background-color: white;
+  text-align: left;
 }
 
 .controls__container {
-    padding-left: 20px;
-    padding-bottom: 20px;
-    font-size: 18px;
-    text-align: left;
-    background-color: white;
-} 
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  text-align: left;
+  background-color: white;
+}
 
 #footer {
-    background-color: #a09b9b;
-    margin-top: 20px;
-    padding: 10px;
-    text-align: center;
-
+  background-color: #a09b9b;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
 }

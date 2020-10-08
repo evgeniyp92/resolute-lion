@@ -49,7 +49,6 @@ var dataController = (function () {
 
 // FRONTEND CONTROLLER
 var frontController = (function () {
-
     var DOMStrings = {
         name: `.add__name`,
         flight: `.add__flight`,
@@ -146,7 +145,6 @@ var controller = (function (dataCtrl, frontCtrl) {
         //3. Add the new item to the UI
         frontCtrl.addListItem(newItem);
         //4. Clear the user fields
-
     };
 
     return {
