@@ -22,6 +22,7 @@ var dataController = (function () {
     var cases = [];
 
     return {
+        // Function for adding a new item
         addItem: function (nm, fl, cnt, st, rsn, dirby) {
             var newItem, UID;
             UID = 0;
@@ -49,6 +50,7 @@ var dataController = (function () {
 
 // FRONTEND CONTROLLER
 var frontController = (function () {
+    // Declaring reusable variables in an object
     var DOMStrings = {
         name: `.add__name`,
         flight: `.add__flight`,
@@ -68,10 +70,12 @@ var frontController = (function () {
                 inputContact: document.querySelector(DOMStrings.contact).value, // Can be any alphanumeric combo
                 inputStatus: document.querySelector(DOMStrings.status).value, // Can be Quarantine or Isolation
                 inputReason: document.querySelector(DOMStrings.reason).value, // Can be any string
-                inputDirectedBy: document.querySelector(DOMStrings.directedBy).value, // Can be any string
+                inputDirectedBy: document.querySelector(DOMStrings.directedBy)
+                    .value, // Can be any string
             };
         },
 
+        // addListItem adds the item to the list and displays it
         addListItem: function (obj) {
             // Declare vars
             var html, newHtml, element;
@@ -107,6 +111,7 @@ var frontController = (function () {
                 .insertAdjacentHTML(`beforeend`, newHtml);
         },
 
+		// exporter function for the domStrings object
         getDOMStrings: function () {
             return DOMStrings;
         },
