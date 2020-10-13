@@ -1,0 +1,25 @@
+{
+  "name": "resolute-lion",
+  "version": "0.1.2",
+  "description": "personnel tracker",
+  "main": "app.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgeniyp92/resolute-lion.git"
+  },
+  "author": "693 ISS DevOps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evgeniyp92/resolute-lion/issues"
+  },
+  "homepage": "https://github.com/evgeniyp92/resolute-lion#readme",
+  "devDependencies": {
+    "eslint": "^7.11.0"
+  }
+}
