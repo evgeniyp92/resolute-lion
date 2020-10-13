@@ -70,8 +70,7 @@ var frontController = (function () {
 				inputContact: document.querySelector(DOMStrings.contact).value, // Can be any alphanumeric combo
 				inputStatus: document.querySelector(DOMStrings.status).value, // Can be Quarantine or Isolation
 				inputReason: document.querySelector(DOMStrings.reason).value, // Can be any string
-				inputDirectedBy: document.querySelector(DOMStrings.directedBy)
-					.value, // Can be any string
+				inputDirectedBy: document.querySelector(DOMStrings.directedBy).value, // Can be any string
 			};
 		},
 

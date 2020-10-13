@@ -12,24 +12,47 @@
         <div class="header">
             <h1>Resolute Lion: COVID-19 Case Tracker</h1>
         </div>
-        <div class="input__container">
+
+        <div class="input__container" id="vitals">
             <input type="text" class="add__name" placeholder="Name">
             <input type="text" class="add__flight" placeholder="Flight">
             <input type="text" class="add__contact" placeholder="Contact (Phone, E-Mail)">
+            <input type="text" class="add__address" placeholder="Address">
+            <select class="duty__status">
+                <option value="full__duty">Full duty</option>
+                <option value="mod__duty">Reduced duty</option>
+                <option value="tele__duty">Teleworking</option>
+            </select>
+        </div>
+
+        <div class="input__container" id="observation">
             <select class="status__type">
                 <option value="Quarantine" selected>Quarantine</option>
                 <option value="Isolation">Isolation</option>
             </select>
             <input type="text" class="iso__quara__reason" placeholder="Reason for quarantine/isolation">
             <input type="text" class="directed__by" placeholder="Directed by...">
-            <!-- <input type="text" class="date__identified" placeholder="Date Identified"> -->
+            <input type="text" class="hotline__called" placeholder="COVID Hotline Called?">
         </div>
+
+        <div class="input__container" id="dates">
+            Date identified: <input type="date" class="date__identified">
+            Observation period: <input type="date" class="observation__period">
+            Return to duty: <input type="date" class="return__to__duty">
+            Date tested: <input type="date" class="date__tested">
+            Positive? <input type="checkbox" class="tested__positive">
+        </div>
+
         <div class="controls__container">
             <button class="btn__newcase">New Case</button>
             <!-- <button class="btn-edit">Edit Case</button>
             <button class="btn-report">Generate report</button> -->
         </div>
-        <div id="footer">Footer</div>
+
+        <div id="footer">Footer
+
+        </div>
+
     </div>
 
     <div class="bottom">
