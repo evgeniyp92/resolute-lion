@@ -1,4 +1,3 @@
-/* eslint-disable quotes */
 // DATA CONTROLLER
 var dataController = (function () {
 	// Create a function constructor for members
