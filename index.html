@@ -2,85 +2,85 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Resolute Lion: COVID-19 Case Tracker</title>
-    <link type="text/css" rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<title>Resolute Lion: COVID-19 Case Tracker</title>
+	<link type="text/css" rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="top">
-        <div class="header">
-            <h1>Resolute Lion: COVID-19 Case Tracker</h1>
-        </div>
+	<div class="top">
+		<div class="header">
+			<h1>Resolute Lion: COVID-19 Case Tracker</h1>
+		</div>
 
-        <div class="input__container" id="vitals">
-            <input type="text" class="add__name" placeholder="Name">
-            <input type="text" class="add__flight" placeholder="Flight">
-            <input type="text" class="add__contact" placeholder="Contact (Phone, E-Mail)">
-            <input type="text" class="add__address" placeholder="Address">
-            <select class="duty__status">
-                <option value="full__duty">Full duty</option>
-                <option value="mod__duty">Reduced duty</option>
-                <option value="tele__duty">Teleworking</option>
-            </select>
-        </div>
+		<div class="input__container" id="vitals">
+			<input type="text" class="add__name" placeholder="Name">
+			<input type="text" class="add__flight" placeholder="Flight">
+			<input type="text" class="add__contact" placeholder="Contact (Phone, E-Mail)">
+			<input type="text" class="add__address" placeholder="Address">
+			<select class="duty__status">
+				<option value="full__duty">Full duty</option>
+				<option value="mod__duty">Reduced duty</option>
+				<option value="tele__duty">Teleworking</option>
+			</select>
+		</div>
 
-        <div class="input__container" id="observation">
-            <select class="status__type">
-                <option value="Quarantine" selected>Quarantine</option>
-                <option value="Isolation">Isolation</option>
-            </select>
-            <input type="text" class="iso__quara__reason" placeholder="Reason for quarantine/isolation">
-            <input type="text" class="directed__by" placeholder="Directed by...">
-            <input type="text" class="hotline__called" placeholder="COVID Hotline Called?">
-        </div>
+		<div class="input__container" id="observation">
+			<select class="status__type">
+				<option value="Quarantine" selected>Quarantine</option>
+				<option value="Isolation">Isolation</option>
+			</select>
+			<input type="text" class="iso__quara__reason" placeholder="Reason for quarantine/isolation">
+			<input type="text" class="directed__by" placeholder="Directed by...">
+			<input type="text" class="hotline__called" placeholder="COVID Hotline Called?">
+		</div>
 
-        <div class="input__container" id="dates">
-            Date identified: <input type="date" class="date__identified">
-            Observation period: <input type="date" class="observation__period">
-            Return to duty: <input type="date" class="return__to__duty">
-            Date tested: <input type="date" class="date__tested">
-            Positive? <input type="checkbox" class="tested__positive">
-        </div>
+		<div class="input__container" id="dates">
+			Date identified: <input type="date" class="date__identified">
+			Observation period: <input type="date" class="observation__period">
+			Return to duty: <input type="date" class="return__to__duty">
+			Date tested: <input type="date" class="date__tested">
+			Positive? <input type="checkbox" class="tested__positive">
+		</div>
 
-        <div class="controls__container">
-            <button class="btn__newcase">New Case</button>
-            <!-- <button class="btn-edit">Edit Case</button>
-            <button class="btn-report">Generate report</button> -->
-        </div>
+		<div class="controls__container">
+			<button class="btn__newcase">New Case</button>
+			<!-- <button class="btn-edit">Edit Case</button>
+			<button class="btn-report">Generate report</button> -->
+		</div>
 
-        <div id="footer">Footer
+		<div id="footer">Footer
 
-        </div>
+		</div>
 
-    </div>
+	</div>
 
-    <div class="bottom">
-        <div class="container">
-            <div class="case__list">
-                <!-- <div class="member" id="member-0">
-                    <div class="member__name">Name: Joe Shmoe</div>
-                    <div class="member__flight">Flight: CYXX</div>
-                    <div class="member__contact">Contact: 867-5309</div>
-                    <div class="member__status">Status: Quarantine</div>
-                    <div class="member__reason">Reason: Dry cough</div>
-                    <div class="member__directedby">Directed by: 86 MDG</div>
-                    <div class="separator">--------------------</div>
-                </div>
-                <div class="member" id="member-1">
-                    <div class="member__name">Name: Frank Doe</div>
-                    <div class="member__flight">Flight: CYXX</div>
-                    <div class="member__contact">Contact: frank.doe@us.gov</div>
-                    <div class="member__status">Status: Isolation</div>
-                    <div class="member__reason">Reason: Sneezed</div>
-                    <div class="member__directedby">Directed by: 693 ISS/CC</div>
-                    <div class="separator">--------------------</div>
-                </div> -->
-            </div>
-        </div>
-    </div>
+	<div class="bottom">
+		<div class="container">
+			<div class="case__list">
+				<!-- <div class="member" id="member-0">
+					<div class="member__name">Name: Joe Shmoe</div>
+					<div class="member__flight">Flight: CYXX</div>
+					<div class="member__contact">Contact: 867-5309</div>
+					<div class="member__status">Status: Quarantine</div>
+					<div class="member__reason">Reason: Dry cough</div>
+					<div class="member__directedby">Directed by: 86 MDG</div>
+					<div class="separator">--------------------</div>
+				</div>
+				<div class="member" id="member-1">
+					<div class="member__name">Name: Frank Doe</div>
+					<div class="member__flight">Flight: CYXX</div>
+					<div class="member__contact">Contact: frank.doe@us.gov</div>
+					<div class="member__status">Status: Isolation</div>
+					<div class="member__reason">Reason: Sneezed</div>
+					<div class="member__directedby">Directed by: 693 ISS/CC</div>
+					<div class="separator">--------------------</div>
+				</div> -->
+			</div>
+		</div>
+	</div>
 
-    <script src="app.js"></script>
+	<script src="app.js"></script>
 </body>
 
 </html>
