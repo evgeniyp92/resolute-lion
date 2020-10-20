@@ -18,6 +18,47 @@ var dataController = (function () {
 		this.reason = reason;
 		this.directedBy = directedBy;
 	};
+
+	// var member = function (
+	// 	uid,
+	// 	name,
+	// 	flight,
+	// 	contact,
+	// 	address,
+	// 	dutyStatus,
+	// 	status,
+	// 	reason,
+	// 	directedBy,
+	// 	COVIDHotline,
+	// 	dateIdentified,
+	// 	observationPeriod,
+	// 	returnToDuty,
+	// 	dateTested,
+	// 	result,
+	// ) {
+	// 	vitals: {
+	// 		this.uid = uid; // Num
+	// 		this.name = name; // String
+	// 		this.flight = flight; // String w/ input masking
+	// 		this.contact = contact; // String, data mask so only German style phone numbers or @us.af.mil emails are accepted
+	// 		this.address = address; // String w/ input masking
+	// 		this.dutyStatus = dutyStatus; // String w/ list of choices
+	// 	};
+	// 	observation: {
+	// 		this.status = status; // 'Quarantine' or 'Isolation'
+	// 		this.reason = reason; // String
+	// 		this.directedBy = directedBy; // String w/ list of choices
+	// 		this.COVIDHotline = COVIDHotline; // Bool
+	// 	};
+	// 	dates: {
+	// 		this.dateIdentified = dateIdentified; // Date
+	// 		this.observationPeriod = observationPeriod; // Date range
+	// 		this.returnToDuty = returnToDuty; // Date
+	// 		this.dateTested = dateTested; // Date
+	// 		this.result = result; // Pos, Neg or Null
+	// 	}
+	// };
+
 	// Set up a data struct to hold members, an array of objects
 	var cases = [];
 
